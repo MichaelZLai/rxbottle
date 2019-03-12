@@ -1,0 +1,47 @@
+nav{
+  background-color: #EE6730;
+}
+
+.App-logo {
+  margin-top: 40px;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pie-container{
+  margin-top: 20px;
+}
+
+.timestamp{
+  font-size: 11px;
+}
+
+.dashboard-title{
+  font-size: 18px;
+}
+
+.bottom-graphs{
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .graph-container{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .nav-item{
+    font-size: 14px;
+  }
+}
