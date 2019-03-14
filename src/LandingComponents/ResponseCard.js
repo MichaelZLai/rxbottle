@@ -23,7 +23,7 @@ class ResponseCard extends Component {
                 )}
                 <h6 className="card-subtitle text-muted">Category: {item.category}</h6>
 
-                <Timestamp className="timestamp" time={item.date} format='ago' />
+                <Timestamp className="timestamp" time={item.date} format='date' />
                 <p className="card-text">{item.answer}</p>
                 </div>
               </div>
